@@ -1,0 +1,23 @@
+{
+  "name": "scratchapi",
+  "version": "1.0.0",
+  "description": "This project uses the Scratch API.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "scratch",
+    "api",
+    "scratchapi",
+    "js",
+    "javascript"
+  ],
+  "author": "Windows 20",
+  "license": "MIT",
+  "dependencies": {
+    "prompt-sync": "^4.2.0",
+    "scratch3-api": "^4.1.2"
+  }
+}
