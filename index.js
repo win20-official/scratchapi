@@ -4,7 +4,7 @@ const prompt = require("prompt-sync")({
   sigint: true
 })
 
-fs.mkdirSync("./info");
+fs.mkdirSync(__dirname + "//info")
 
 console.log("Scratch account validator by Windows 20")
 const user = prompt("What's your username? ")
